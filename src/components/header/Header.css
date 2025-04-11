@@ -1,0 +1,25 @@
+.header-section {
+  background-image: url("../../assets//Header-hero.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: fit-content;
+}
+.logo-img {
+  max-width: 200px;
+  max-height: 50px;
+  height: auto;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .text-container {
+    max-width: 822px;
+  }
+  .header-section {
+    max-height: 514px;
+  }
+  .logo-img {
+    max-width: 417px;
+    max-height: 132px;
+  }
+}
