@@ -1,7 +1,7 @@
 /* Estilos base para inputs */
 .custom-input {
   border-radius: 50px;
-  border: 1px solid #ccc;
+  border: 1px solid #000000;
   padding: 0.75rem 1.5rem;
   font-size: 16px;
   height: auto;
@@ -12,7 +12,7 @@
   color: var(--primary-red);
 }
 .custom-input::placeholder {
-  color: #999;
+  color: #9e9e9e;
 }
 
 .btn-solicita {

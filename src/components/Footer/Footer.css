@@ -1,0 +1,135 @@
+.footer-bg {
+  background-image: url("../../assets/footerBg.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 1rem;
+}
+.footer-legal-left {
+  max-width: 1296px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 40px;
+}
+
+.legal-link {
+  font-family: "Poppins";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0;
+  white-space: nowrap;
+  color: #ffff;
+}
+
+/* Contenedor interior centrado */
+.footer-inner {
+  max-width: 1296px;
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+/* Logo wrapper alineado a la izquierda */
+.footer-logo-wrapper {
+  display: flex;
+  justify-content: flex-start;
+}
+
+/* Logo */
+.footer-logo {
+  max-width: 450px;
+  height: 144px;
+}
+/* Grid de contenido del footer */
+.footer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  text-align: left;
+  margin-top: 1rem;
+}
+
+/* Líneas decorativas bajo los títulos */
+.footer-line {
+  border: none;
+  height: 1px;
+  background-color: white;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Anchos exactos para líneas en desktop 1920px */
+@media (min-width: 1920px) {
+  .footer-bg {
+    height: 618px;
+  }
+
+  .line-1 {
+    width: 226.67px;
+  }
+
+  .line-2 {
+    width: 179.26px;
+  }
+
+  .line-3 {
+    width: 300.74px;
+  }
+  .footer-logo {
+    width: 450px;
+    height: 144px;
+  }
+  .footer-inner {
+    margin-top: 100px;
+    max-width: 1296px;
+  }
+}
+
+/* Íconos sociales */
+.social-icon {
+  transition: filter 0.3s ease;
+  filter: brightness(100%);
+}
+.social-icon:hover {
+  filter: brightness(150%);
+}
+.custom-legal-text {
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+/* Responsive footer */
+@media (max-width: 768px) {
+  .footer-bg {
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    text-align: center;
+    height: auto;
+  }
+
+  .footer-grid {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .social-icons {
+    justify-content: center;
+  }
+
+  .footer-logo-wrapper {
+    justify-content: center;
+  }
+  .footer-logo {
+    width: 250px;
+    height: 144px;
+  }
+}

@@ -1,8 +1,10 @@
 import "./App.css";
-import Header from "./components/header/Header";
+import Header from "./components/Header/Header";
 import WhatIs from "./components/WhatIs/WhatIs";
 import WhatYouWillLearn from "./components/WhatYouWillLearn/WhatYouWillLearn";
-import FormSection from "./components/form/FormSection";
+import FormSection from "./components/Form/FormSection";
+import BannerSection from "./components/BannerSection/BannerSection";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
       <WhatIs />
       <WhatYouWillLearn />
       <FormSection />
+      <BannerSection />
+      <Footer />
     </div>
   );
 }
