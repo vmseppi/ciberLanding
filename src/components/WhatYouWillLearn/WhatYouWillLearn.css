@@ -1,0 +1,117 @@
+:root {
+  --primary-red: #ff302a;
+  --light-gray: #f2f2f2;
+}
+
+.text-primary-red {
+  color: var(--primary-red);
+}
+.what-section {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bg-primary-red {
+  background-color: var(--primary-red);
+}
+.bg-light-gray {
+  background-color: var(--light-gray);
+}
+
+.rounded-50 {
+  border-radius: 50px;
+}
+.card-container {
+  padding: 15px;
+}
+
+/* Desktop-specific styles */
+@media (min-width: 992px) {
+  .learn-title {
+    font-family: "Poppins";
+    font-weight: 800;
+    font-size: 50px;
+    line-height: 61px;
+    color: var(--primary-red);
+    width: 647px;
+    height: 61px;
+    margin: 0 auto 30px auto;
+  }
+  .what-section {
+    padding-left: 68px;
+    padding-right: 68px;
+  }
+
+  .card-container {
+    max-width: 1724px;
+    max-height: 1132px;
+    padding-bottom: 63px;
+    padding-top: 63px;
+    padding-left: 213px;
+    padding-right: 213px;
+    margin-top: -150px;
+  }
+
+  .card-text-1 {
+    width: 335px;
+    height: 210px;
+    margin: 0 auto;
+    margin-bottom: 67px;
+    font-size: 20px;
+  }
+
+  .card-text-2 {
+    width: 345px;
+    height: 240px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 0 auto;
+    font-size: 20px;
+    margin-bottom: 37px;
+  }
+
+  .card-text-3 {
+    width: 341px;
+    height: 240px;
+    margin: 0 auto;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 37px;
+  }
+
+  .learn-text-wrapper {
+    max-width: 1068px;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 45px;
+  }
+
+  .learn-card {
+    width: 419px;
+    height: 648px;
+    border-radius: 10px;
+  }
+
+  .btn-primary-red {
+    background-color: var(--primary-red);
+    border-color: var(--primary-red);
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    padding: 18px;
+    border-radius: 5px;
+    width: 386px;
+    height: 57px;
+    transition: all 0.3s ease;
+    gap: 10px;
+  }
+
+  .btn-primary-red:hover {
+    background-color: #e62a23;
+    border-color: #e62a23;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+}

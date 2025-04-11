@@ -15,14 +15,11 @@ const WhatIs = () => {
         alt=""
         className="curved-img position-absolute bottom-0 start-0 w-100"
       />
-      <div className="container-fluid px-3 px-md-4 px-lg-5">
+      <div className="px-3 px-md-4 px-lg-5">
         <div className="row justify-content-center">
           <div className="col-12 col-lg-10 col-xl-8">
-            {/* Título */}
-            <h2 className="what-is-title">¿Qué es?</h2>
-
-            {/* Párrafo */}
-            <p className="what-is-text">
+            <h2 className="what-is-title text-center">¿Qué es?</h2>
+            <p className="what-is-text text-center">
               <span className="fw-bold">
                 Cursos gratuitos para jóvenes de entre 10 y 18 años para
                 enseñarles a usar la tecnología de manera saludable, positiva y
@@ -33,19 +30,13 @@ const WhatIs = () => {
               física como mental. Cualquier centro educativo o entidad que
               trabaje en la educación de jóvenes puede solicitarlos.
             </p>
-
-            {/* Botón */}
-            <div
-              className="d-flex justify-content-center align-items-center"
-            >
-              <button className="btn what-is-button">
+            <div className="d-flex justify-content-center align-items-center">
+              <button className="btn what-is-button text-center">
                 Solicita formación gratuita
               </button>
             </div>
           </div>
         </div>
-
-        {/* Imagen del video */}
         <div className="row justify-content-center">
           <div className="col-12 position-relative">
             <img
