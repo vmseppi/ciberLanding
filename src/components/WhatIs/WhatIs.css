@@ -70,7 +70,7 @@
 
   .curved-img {
     width: 1920px;
-    height: 907.5px;
+    height: auto;
     left: 50%;
     max-width: none;
   }

@@ -2,6 +2,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import WhatIs from "./components/WhatIs/WhatIs";
 import WhatYouWillLearn from "./components/WhatYouWillLearn/WhatYouWillLearn";
+import FormSection from "./components/form/FormSection";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <WhatIs />
       <WhatYouWillLearn />
+      <FormSection />
     </div>
   );
 }
